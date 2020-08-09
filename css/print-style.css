@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Print Style Sheet */
+@media print {
+	nav,
+	#book-a-table,
+	#order-now{
+		display: none;
+	}
+	a[href]:after {
+    	content: none !important;
+  	}
+	h1, 
+	h2, 
+	h1 span,
+	.content-container h1{
+		color:#fff !important;
+	}
+
+}
